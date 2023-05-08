@@ -11,18 +11,14 @@
 - Charles
 - Mobile testing
 
+Для этого необходимо 7 раз выполнить команду `git branch`:
+
     $ git branch Postman
-   
     $ git branch Jmeter
-    
     $ git branch CheckLists
-    
     $ git branch BugReports
-    
     $ git branch SQL
-    
     $ git branch Charles
-    
     $ git branch MobileTesting
 
 ### 2. Запушить все ветки на внешний репозиторий
