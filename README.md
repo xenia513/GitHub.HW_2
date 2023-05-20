@@ -27,6 +27,7 @@
 
 ### 3. В ветке BugReports сделать текстовый документ со структурой баг репорта
 
+    $ git checkout BugReports    
     $ touch BugReport.txt
     $ vim BugReport.txt
   
@@ -57,7 +58,6 @@
 
     $ git add .
     $ git commit -m "created BugReport.txt"
-    $ git push
 
 ### 5. Вмержить ветку Bag Reports в Main
 
@@ -89,7 +89,7 @@
 
     $ git add .
     $ git commit -m "created checkList.txt"
-    $ git push
+    $ git push origin CheckLists
 
 ### 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 
